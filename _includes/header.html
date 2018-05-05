@@ -1,29 +1,75 @@
-<!-- Start Header -->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand scroll" href="#top"><img src="{{ site.logo_url }}" alt="{{ site.title }}"></a>
+<header class="page-head">
+  <!-- RD Navbar-->
+  <div class="rd-navbar-wrap">
+    <nav class="rd-navbar" data-stick-up-clone="true" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-stick-up-offset="165px" data-md-device-layout="rd-navbar-static" data-md-layout="rd-navbar-static" data-lg-stick-up-offset="165px" data-lg-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-static">
+      <div class="rd-navbar-aside">
+        <div data-rd-navbar-toggle=".rd-navbar-aside" class="rd-navbar-aside-toggle"><span></span></div>
+        <div class="rd-navbar-aside-content">
+          <div class="shell">
+            <div class="rd-navbar-aside-inner">
+              <div class="rd-navbar-aside-left">
+                <address class="contact-info">
+                  <dl>
+                    <dt>ADDRESS</dt>
+                    <dd>28 Jackson Blvd Ste 1020 Chicago IL 60604-2340</dd>
+                  </dl>
+                </address>
+              </div>
+              <div class="rd-navbar-aside-right">
+                <div class="unit unit-horizontal unit-spacing-sm unit-middle">
+                  <div class="unit-left"><span class="icon-image"><img src="images/icon-call-39x38.png" alt="" width="39" height="38"/></span></div>
+                  <div class="unit-body"><a href="callto:#" class="link link-md">(800) 2345-6789</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="scroll" href="#top">Home</a></li>
-                <li><a class="scroll" href="#about">About</a></li>
-                <li><a class="scroll" href="#treatments">Treatments</a></li>
-                <li><a class="scroll" href="#team">Team</a></li>
-                <li><a class="scroll" href="#testimonials">Testimonials</a></li>
-                <li><a class="scroll" href="#gallery">Gallery</a></li>
-                <li><a class="scroll" href="#location">Location</a></li>
-            </ul>
+      </div>
+      <div class="rd-navbar-inner">
+        <!-- RD Navbar Panel-->
+        <div class="rd-navbar-panel">
+          <!-- RD Navbar Toggle-->
+          <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+          <!-- RD Navbar Brand--><a href="index.html" class="rd-navbar-brand"><span class="brand-name"><img src="images/logo-270x51.png" alt="" width="270" height="51"/></span></a>
         </div>
-    </div>
-</nav>
-<!-- End Header -->
+        <div class="rd-navbar-nav-wrap">
+          <!-- RD Navbar Nav-->
+          <ul class="rd-navbar-nav">
+            <li class="active"><a href="index.html">Home</a>
+            </li>
+            <li><a href="about.html">About</a>
+              <!-- RD Navbar Dropdown-->
+              <ul class="rd-navbar-dropdown">
+                <li><a href="index.html#">History</a>
+                </li>
+                <li><a href="index.html#">Features</a>
+                  <!-- RD Navbar Dropdown-->
+                  <ul class="rd-navbar-dropdown">
+                    <li><a href="index.html#">Archive</a></li>
+                    <li><a href="index.html#">Events</a></li>
+                    <li><a href="404.html">404 Page</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html#">Basic Service</a>
+                </li>
+                <li><a href="index.html#">Products</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="services.html">Services</a>
+            </li>
+            <li><a href="news.html">News</a>
+              <!-- RD Navbar Dropdown-->
+              <ul class="rd-navbar-dropdown">
+                <li><a href="post.html">Post page</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

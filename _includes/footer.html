@@ -1,18 +1,47 @@
-<!-- Start Footer -->
-<footer class="main-footer">
-    <div class="container-fluid">
-        
-        <ul class="social">
-            {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
-            {% if site.twitter %}<li><a href="{{ site.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>{% endif %}
-            {% if site.instagram %}<li><a href="{{ site.instagram }}"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>{% endif %}
-            {% if site.youtube %}<li><a href="{{ site.youtube }}"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>{% endif %}
-            {% if site.skype %}<li><a href="{{ site.skype }}"><svg class="icon icon-skype"><use xlink:href="#icon-skype"></use></svg></a></li>{% endif %}
-            {% if site.feed %}<li><a href="#"><svg class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a></li>{% endif %}
-        </ul>
-
-        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
-
+<footer class="page-foot bg-gray-dark object-wrap object-wrap-sm-right">
+  <div class="object-wrap-body object-wrap-map sm-width-c6">
+    <!-- RD Google Map-->
+    <div data-zoom="15" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff1a00&quot;},{&quot;invert_lightness&quot;:true},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:33},{&quot;gamma&quot;:0.5}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#2D333C&quot;}]}]" class="rd-google-map rd-google-map__model">
+      <ul class="map_locations">
+        <li data-y="40.643180" data-x="-73.9874068">
+          <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+        </li>
+      </ul>
     </div>
+  </div>
+  <div class="page-foot-inner">
+    <div class="shell">
+      <div class="range">
+        <div class="cell-sm-6">
+          <h3>Contacts</h3>
+          <address class="contact-info">
+            <dl>
+              <dt>ADDRESS</dt>
+              <dd>28 Jackson Blvd Ste 1020 Chicago IL 60604-2340</dd>
+            </dl>
+            <dl class="terms-list-md offset-top-17">
+              <dt>tel</dt>
+              <dd><a href="callto:#">(800) 2345-6789</a></dd>
+            </dl>
+            <p class="offset-top-15">7 Days a week from 9:00 am to 7:00 pm</p>
+            <dl class="terms-list-sm offset-top-12">
+              <dt>E-mail</dt>
+              <dd><a href="mailto:#" class="link-primary-contrast">info@demolink.org</a></dd>
+            </dl>
+            <div class="offset-top-30 offset-sm-top-55">
+              <ul class="list-inline list-inline-xs">
+                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-facebook"></span></a></li>
+                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-twitter"></span></a></li>
+                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-google-plus"></span></a></li>
+                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-youtube"></span></a></li>
+              </ul>
+            </div>
+            <p class="rights">&#169;&nbsp;<span id="copyright-year"></span>.&nbsp;&nbsp;<a href="privacy.html">Privacy Policy</a>
+              <!-- {%FOOTER_LINK}-->
+            </p>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
-<!-- End Footer -->
