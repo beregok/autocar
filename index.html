@@ -29,7 +29,10 @@ layout: default
                   <div class="rd-mailform-wrap-dark">
                     <h4>Проконсультуватися</h4>
                     <!-- RD Mailform-->
-                    <form data-form-output="form-output-global" data-form-type="contact" method="post" action="https://livedemo00.template-help.com/wt_57802/bat/rd-mailform.php" class="rd-mailform offset-top-23">
+                    <form class="rd-mailform offset-top-23" name="contact" netlify-honeypot="bot-field" data-form-output="form-output-global" data-form-type="contact" method="POST" action="thank-you" netlify>
+                      <p class="hidden">
+                      <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                    </p>
                       <div class="form-group">
                         <label for="contact-email" class="form-label">E-mail</label>
                         <input id="contact-email" type="email" name="email" data-constraints="@Required @Email" class="form-control">
