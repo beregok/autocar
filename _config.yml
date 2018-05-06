@@ -30,6 +30,7 @@ google_analytics: UA-115552277-1 # replace with your GA tracking identifier
 # Contact info
 contact:
     phone: +38 (098) 78 - 22 - 475
+    phonecall: +380987822475
     email: andreford22111985@gmail.com
     address: Україна, м.Конотоп
 
@@ -45,7 +46,15 @@ facebook: http://facebook.com
 twitter: http://twitter.com
 instagram: http://instagram.com
 youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
+skype: skype:beregok
 
 # Footer
 copyright:  Авто Майстер. Професійна консультація
+
+#Compress htnl
+compress_html:
+  compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: [head, body]
