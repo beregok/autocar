@@ -42,11 +42,10 @@ map:
     y: 51.2409432
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:beregok
+facebook:
+twitter:
+youtube:
+googleplus: 
 
 # Footer
 copyright:  Авто Майстер. Професійна консультація
