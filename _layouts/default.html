@@ -2,17 +2,19 @@
 <body>
   <!-- Page-->
   <div class="page">
-      <!-- Page Header-->
-      {% include header.html %}
-      <!-- Page Content-->
-      {{ content }}
-      <!-- Page Footer-->
-      {% include footer.html %}
-    </div>
-    <!-- Global Mailform Output-->
-    <div id="form-output-global" class="snackbars"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+    <!-- Page Header-->
+    {% include header.html %}
+    <!-- Page Content-->
+    {{ content }}
+    <!-- Page Footer-->
+    {% include footer.html %}
+  </div>
+  <!-- Global Mailform Output-->
+  <div id="form-output-global" class="snackbars"></div>
+  <!-- Javascript-->
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Add Google Analytics  -->
+  {% include analytics.html %}
+</body>
 </html>

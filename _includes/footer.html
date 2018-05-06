@@ -1,10 +1,10 @@
 <footer class="page-foot bg-gray-dark object-wrap object-wrap-sm-right">
   <div class="object-wrap-body object-wrap-map sm-width-c6">
     <!-- RD Google Map-->
-    <div data-zoom="15" data-x="33.2050521" data-y="51.2409432" data-styles="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff1a00&quot;},{&quot;invert_lightness&quot;:true},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:33},{&quot;gamma&quot;:0.5}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#2D333C&quot;}]}]" class="rd-google-map rd-google-map__model">
+    <div data-zoom="{{ site.map.zoom }}" data-x="{{ site.map.x }}" data-y="{{ site.map.y }}" data-styles="[{&quot;stylers&quot;:[{&quot;hue&quot;:&quot;#ff1a00&quot;},{&quot;invert_lightness&quot;:true},{&quot;saturation&quot;:-100},{&quot;lightness&quot;:33},{&quot;gamma&quot;:0.5}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#2D333C&quot;}]}]" class="rd-google-map rd-google-map__model">
       <ul class="map_locations">
-        <li data-y="51.2409432" data-x="33.2050521">
-          <p>Україна, м.Конотоп.</p>
+        <li data-y="{{ site.map.y }}" data-x="{{ site.map.x }}">
+          <p>{{ site.map.address }}</p>
         </li>
       </ul>
     </div>
@@ -18,26 +18,26 @@
           <address class="contact-info">
             <dl>
               <dt>Адреса</dt>
-              <dd>Україна м.Конотоп</dd>
+              <dd>{{ site.contact.address }}</dd>
             </dl>
             <dl class="terms-list-md offset-top-17">
               <dt>Тел</dt>
-              <dd><a href="callto:#">+38 (098) 78 - 22 - 475</a></dd>
+              <dd><a href="callto:#">{{ site.contact.phone }}</a></dd>
             </dl>
             <p class="offset-top-15">Надаю консультації кожен день з 8:00 ранку до 19:00 вечора</p>
             <dl class="terms-list-sm offset-top-12">
               <dt>E-mail</dt>
-              <dd><a href="mailto:andreford22111985@gmail.com" class="link-primary-contrast">andreford22111985@gmail.com</a></dd>
+              <dd><a href="mailto:{{ site.contact.email }}" class="link-primary-contrast">{{ site.contact.email }}</a></dd>
             </dl>
-            <div class="offset-top-30 offset-sm-top-55">
+            <!-- <div class="offset-top-30 offset-sm-top-55">
               <ul class="list-inline list-inline-xs">
                 <li><a href="index.html#"><span class="icon icon-xs icon-white fa-facebook"></span></a></li>
-                <!-- <li><a href="index.html#"><span class="icon icon-xs icon-white fa-twitter"></span></a></li>
+                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-twitter"></span></a></li>
                 <li><a href="index.html#"><span class="icon icon-xs icon-white fa-google-plus"></span></a></li>
-                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-youtube"></span></a></li> -->
+                <li><a href="index.html#"><span class="icon icon-xs icon-white fa-youtube"></span></a></li>
               </ul>
-            </div>
-            <p class="rights">&#169;&nbsp;<span id="copyright-year"></span>.&nbsp;&nbsp;<a href="privacy.html">Умови використання</a>
+            </div> -->
+            <p class="rights">&#169;&nbsp;<span id="copyright-year"></span>.&nbsp;{{ site.copyright }}.&nbsp;<a href="privacy.html">Умови використання</a>
               <!-- FOOTER_LINK-->
             </p>
           </address>
